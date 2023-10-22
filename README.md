@@ -33,3 +33,7 @@ Modeling :
 * Bulid the Logistic regression, KNN, Gradient Boosting Decision Tree, Catboost and XGBoost.
 * Using Optuna to tuning the hyperparameter of each model.
 * Using ensemble voting method (soft vote ,hard vote) bulid the ensemble model.
+
+## final result 
+![image](https://github.com/Eason0227/Semiconductor-Manufacturing-Procees-Prediction/assets/102510341/3d2c7d1b-e17b-4627-ae51-3f861e458ef0)
+
