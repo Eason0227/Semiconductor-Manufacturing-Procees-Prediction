@@ -38,6 +38,7 @@ Modeling :
 ![image](https://github.com/Eason0227/Semiconductor-Manufacturing-Procees-Prediction/assets/102510341/3d2c7d1b-e17b-4627-ae51-3f861e458ef0)
 
 ## Flask API
+reference https://ithelp.ithome.com.tw/articles/10280422  
 ### 管理套件版本 (requirements.txt)  
 requirements.txt 這一支檔案是負記錄了當前專案資料夾下程式所有依賴的套件及相對應的版本。  
 ```
