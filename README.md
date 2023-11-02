@@ -57,8 +57,11 @@ pip install -r requirements.txt
 python run.py
 ```
 ### 使用Postman測試API
-在網址列貼上 http://localhost:3000/predict，並點選 Body-> raw -> JSON 並將資料的參數以 JSON 格式進行描述  
-點選 send 後即可將數值透過 JSON 格式使用 POST 方法傳送到後端 API 中的 predict 路徑。該 API 透過 POST 接收到前端使用者所發送的訊息後，將這些數值依序放在陣列中進行模型預測。最終預測結果會以0 JSON 格式回傳到前端使用者
+使用Postman這個軟體來做API測試。Postman是一個能夠模擬HTTP Request的工具，能夠夠簡單快速的測試API
+* 在網址列貼上http://localhost:3000/predict， 
+* 點選 send 後即可將數值透過 JSON 格式使用 POST 方法傳送到後端 API 中的 predict 路徑。
+* 該 API 透過 POST 接收到前端使用者所發送的訊息後，將這些數值依序放在陣列中進行模型預測。
+* 最終預測結果會以JSON格式回傳到前端使用者
 ![image](https://github.com/Eason0227/Semiconductor-Manufacturing-Procees-Prediction/assets/102510341/ed76eebc-856e-4593-8db2-9d22fd0c97fa)
 
 
