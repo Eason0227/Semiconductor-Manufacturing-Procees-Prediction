@@ -37,3 +37,28 @@ Modeling :
 ## final result 
 ![image](https://github.com/Eason0227/Semiconductor-Manufacturing-Procees-Prediction/assets/102510341/3d2c7d1b-e17b-4627-ae51-3f861e458ef0)
 
+## Flask API
+### 管理套件版本 (requirements.txt)  
+requirements.txt 這一支檔案是負記錄了當前專案資料夾下程式所有依賴的套件及相對應的版本。  
+```
+Flask
+Flask-Cors
+numpy
+scikit-learn
+xgboost
+```
+輸入以下指令即可一次安裝所有指定的套件。
+```
+pip install -r requirements.txt
+```
+### 執行 API
+開啟終端機並輸入以下指令：
+```
+python run.py
+```
+### 使用Postman測試API
+在網址列貼上 http://localhost:3000/predict，並點選 Body-> raw -> JSON 並將資料的參數以 JSON 格式進行描述  
+點選 send 後即可將數值透過 JSON 格式使用 POST 方法傳送到後端 API 中的 predict 路徑。該 API 透過 POST 接收到前端使用者所發送的訊息後，將這些數值依序放在陣列中進行模型預測。最終預測結果會以0 JSON 格式回傳到前端使用者
+![image](https://github.com/Eason0227/Semiconductor-Manufacturing-Procees-Prediction/assets/102510341/ed76eebc-856e-4593-8db2-9d22fd0c97fa)
+
+
